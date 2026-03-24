@@ -84,6 +84,33 @@ export default function App() {
     });
   }, [query]);
 
+  const tablesView = useMemo(() => {
+    if (query.trim().toLowerCase() !== 'tables') return null;
+
+    const grouped: Record<string, { tableName: string, guests: string[] }> = {};
+    
+    guests.forEach(g => {
+      if (!grouped[g.tableNumber]) {
+         grouped[g.tableNumber] = { tableName: g.tableName, guests: [] };
+      }
+      grouped[g.tableNumber].guests.push(`${g.firstName} ${g.lastName}`);
+    });
+
+    const sortedTableNumbers = Object.keys(grouped).sort((a, b) => {
+      const numA = parseInt(a);
+      const numB = parseInt(b);
+      if (isNaN(numA) && isNaN(numB)) return a.localeCompare(b);
+      if (isNaN(numA)) return -1;
+      if (isNaN(numB)) return 1;
+      return numA - numB;
+    });
+
+    return sortedTableNumbers.map(tNum => ({
+      tableNumber: tNum,
+      ...grouped[tNum]
+    }));
+  }, [query]);
+
   return (
     <div className="app-container">
       <header className="header">
@@ -114,7 +141,20 @@ export default function App() {
         </div>
 
         <div className="results-container">
-          {query.trim().length >= 2 ? (
+          {tablesView ? (
+            <div className="tables-grid">
+              {tablesView.map((table, idx) => (
+                <div key={idx} className="table-summary-card">
+                  <h3 className="table-summary-title">{table.tableName}</h3>
+                  <ul className="table-summary-guests">
+                    {table.guests.map((name, i) => (
+                      <li key={i}>{name}</li>
+                    ))}
+                  </ul>
+                </div>
+              ))}
+            </div>
+          ) : query.trim().length >= 2 ? (
             results.length > 0 ? (
               <ul className="results-list">
                 {results.map((guest, index) => (
