@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react';
-import { Search, User, Users, MapPin } from 'lucide-react';
+import { Search, User, MapPin } from 'lucide-react';
 import { guests } from './data';
 
 const EQUIVALENCES = [
@@ -128,10 +128,6 @@ export default function App() {
                     <div className="table-info">
                       <div className="table-number-badge">
                         <MapPin size={16} />
-                        <span>Table {guest.tableNumber}</span>
-                      </div>
-                      <div className="table-name">
-                        <Users size={16} />
                         <span>{guest.tableName}</span>
                       </div>
                     </div>
