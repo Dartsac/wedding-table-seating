@@ -369,50 +369,62 @@ export const guests: Guest[] = [
   {
     "tableNumber": "6",
     "tableName": "Farm Table 6",
-    "firstName": "Ben",
-    "lastName": "Earl-Moseley"
+    "firstName": "Karen",
+    "lastName": "Koenig"
   },
   {
     "tableNumber": "6",
     "tableName": "Farm Table 6",
-    "firstName": "Cameron",
-    "lastName": "Hough"
+    "firstName": "Michael",
+    "lastName": "Koenig"
   },
   {
     "tableNumber": "6",
     "tableName": "Farm Table 6",
-    "firstName": "Alyssa",
-    "lastName": "Stevens"
+    "firstName": "Keith",
+    "lastName": "Taylor"
   },
   {
     "tableNumber": "6",
     "tableName": "Farm Table 6",
-    "firstName": "Varun",
-    "lastName": "Vedula"
+    "firstName": "Tammy",
+    "lastName": "Taylor"
   },
   {
     "tableNumber": "6",
     "tableName": "Farm Table 6",
-    "firstName": "Karthik",
-    "lastName": "Pullella"
+    "firstName": "Lionel",
+    "lastName": "Jones (Sr.)"
   },
   {
     "tableNumber": "6",
     "tableName": "Farm Table 6",
-    "firstName": "David",
-    "lastName": "Adams"
+    "firstName": "LaGaunda",
+    "lastName": "Jones"
   },
   {
     "tableNumber": "6",
     "tableName": "Farm Table 6",
-    "firstName": "Jordan",
-    "lastName": "Mcclinton"
+    "firstName": "Kyli",
+    "lastName": "Reid"
   },
   {
     "tableNumber": "6",
     "tableName": "Farm Table 6",
-    "firstName": "Nicholina",
-    "lastName": "Brasch"
+    "firstName": "Jessi",
+    "lastName": "Reid"
+  },
+  {
+    "tableNumber": "6",
+    "tableName": "Farm Table 6",
+    "firstName": "Craig",
+    "lastName": "Reid"
+  },
+  {
+    "tableNumber": "6",
+    "tableName": "Farm Table 6",
+    "firstName": "Pam",
+    "lastName": "Reid"
   },
   {
     "tableNumber": "7",
@@ -525,62 +537,50 @@ export const guests: Guest[] = [
   {
     "tableNumber": "9",
     "tableName": "Round Table 9",
-    "firstName": "Karen",
-    "lastName": "Koenig"
+    "firstName": "Ben",
+    "lastName": "Earl-Moseley"
   },
   {
     "tableNumber": "9",
     "tableName": "Round Table 9",
-    "firstName": "Michael",
-    "lastName": "Koenig"
+    "firstName": "Cameron",
+    "lastName": "Hough"
   },
   {
     "tableNumber": "9",
     "tableName": "Round Table 9",
-    "firstName": "Keith",
-    "lastName": "Taylor"
+    "firstName": "Alyssa",
+    "lastName": "Stevens"
   },
   {
     "tableNumber": "9",
     "tableName": "Round Table 9",
-    "firstName": "Tammy",
-    "lastName": "Taylor"
+    "firstName": "Varun",
+    "lastName": "Vedula"
   },
   {
     "tableNumber": "9",
     "tableName": "Round Table 9",
-    "firstName": "Lionel",
-    "lastName": "Jones (Sr.)"
+    "firstName": "Karthik",
+    "lastName": "Pullella"
   },
   {
     "tableNumber": "9",
     "tableName": "Round Table 9",
-    "firstName": "LaGaunda",
-    "lastName": "Jones"
+    "firstName": "David",
+    "lastName": "Adams"
   },
   {
     "tableNumber": "9",
     "tableName": "Round Table 9",
-    "firstName": "Kyli",
-    "lastName": "Reid"
+    "firstName": "Jordan",
+    "lastName": "Mcclinton"
   },
   {
     "tableNumber": "9",
     "tableName": "Round Table 9",
-    "firstName": "Jessi",
-    "lastName": "Reid"
-  },
-  {
-    "tableNumber": "9",
-    "tableName": "Round Table 9",
-    "firstName": "Craig",
-    "lastName": "Reid"
-  },
-  {
-    "tableNumber": "9",
-    "tableName": "Round Table 9",
-    "firstName": "Pam",
-    "lastName": "Reid"
+    "firstName": "Nicholina",
+    "lastName": "Brasch"
   },
   {
     "tableNumber": "10",
