@@ -231,18 +231,6 @@ export const guests: Guest[] = [
   {
     "tableNumber": "4",
     "tableName": "Farm Table 4",
-    "firstName": "Mitchell",
-    "lastName": "Cassaday"
-  },
-  {
-    "tableNumber": "4",
-    "tableName": "Farm Table 4",
-    "firstName": "Reagan",
-    "lastName": "Baird"
-  },
-  {
-    "tableNumber": "4",
-    "tableName": "Farm Table 4",
     "firstName": "Ian",
     "lastName": "Baird"
   },
@@ -250,18 +238,6 @@ export const guests: Guest[] = [
     "tableNumber": "4",
     "tableName": "Farm Table 4",
     "firstName": "Sienna",
-    "lastName": "Baird"
-  },
-  {
-    "tableNumber": "4",
-    "tableName": "Farm Table 4",
-    "firstName": "Rollins",
-    "lastName": "Baird"
-  },
-  {
-    "tableNumber": "4",
-    "tableName": "Farm Table 4",
-    "firstName": "Riley",
     "lastName": "Baird"
   },
   {
@@ -279,18 +255,84 @@ export const guests: Guest[] = [
   {
     "tableNumber": "4",
     "tableName": "Farm Table 4",
-    "firstName": "Ayden",
-    "lastName": "Berks"
-  },
-  {
-    "tableNumber": "4",
-    "tableName": "Farm Table 4",
     "firstName": "Ethan",
     "lastName": "Ivey"
   },
   {
     "tableNumber": "4",
     "tableName": "Farm Table 4",
+    "firstName": "Gregg",
+    "lastName": "Daversa"
+  },
+  {
+    "tableNumber": "4",
+    "tableName": "Farm Table 4",
+    "firstName": "Maye",
+    "lastName": "Pintor"
+  },
+  {
+    "tableNumber": "4",
+    "tableName": "Farm Table 4",
+    "firstName": "Alvaro",
+    "lastName": "Pintor"
+  },
+  {
+    "tableNumber": "4",
+    "tableName": "Farm Table 4",
+    "firstName": "Tom",
+    "lastName": "Taetsch"
+  },
+  {
+    "tableNumber": "4",
+    "tableName": "Farm Table 4",
+    "firstName": "Maricarmen",
+    "lastName": "Dobson"
+  },
+  {
+    "tableNumber": "4",
+    "tableName": "Farm Table 4",
+    "firstName": "Toyita",
+    "lastName": "Pintor"
+  },
+  {
+    "tableNumber": "4",
+    "tableName": "Farm Table 4",
+    "firstName": "Magdalena",
+    "lastName": "Pintor"
+  },
+  {
+    "tableNumber": "5",
+    "tableName": "Farm Table 5",
+    "firstName": "Mitchell",
+    "lastName": "Cassaday"
+  },
+  {
+    "tableNumber": "5",
+    "tableName": "Farm Table 5",
+    "firstName": "Reagan",
+    "lastName": "Baird"
+  },
+  {
+    "tableNumber": "5",
+    "tableName": "Farm Table 5",
+    "firstName": "Rollins",
+    "lastName": "Baird"
+  },
+  {
+    "tableNumber": "5",
+    "tableName": "Farm Table 5",
+    "firstName": "Riley",
+    "lastName": "Baird"
+  },
+  {
+    "tableNumber": "5",
+    "tableName": "Farm Table 5",
+    "firstName": "Ayden",
+    "lastName": "Berks"
+  },
+  {
+    "tableNumber": "5",
+    "tableName": "Farm Table 5",
     "firstName": "Alex",
     "lastName": "Dodd"
   },
@@ -299,24 +341,6 @@ export const guests: Guest[] = [
     "tableName": "Farm Table 5",
     "firstName": "Tracy",
     "lastName": "Cassaday"
-  },
-  {
-    "tableNumber": "5",
-    "tableName": "Farm Table 5",
-    "firstName": "Gregg",
-    "lastName": "Daversa"
-  },
-  {
-    "tableNumber": "5",
-    "tableName": "Farm Table 5",
-    "firstName": "Maye",
-    "lastName": "Pintor"
-  },
-  {
-    "tableNumber": "5",
-    "tableName": "Farm Table 5",
-    "firstName": "Alvaro",
-    "lastName": "Pintor"
   },
   {
     "tableNumber": "5",
@@ -335,30 +359,6 @@ export const guests: Guest[] = [
     "tableName": "Farm Table 5",
     "firstName": "Katie",
     "lastName": "Dobson"
-  },
-  {
-    "tableNumber": "5",
-    "tableName": "Farm Table 5",
-    "firstName": "Tom",
-    "lastName": "Taetsch"
-  },
-  {
-    "tableNumber": "5",
-    "tableName": "Farm Table 5",
-    "firstName": "Maricarmen",
-    "lastName": "Dobson"
-  },
-  {
-    "tableNumber": "5",
-    "tableName": "Farm Table 5",
-    "firstName": "Toyita",
-    "lastName": "Pintor"
-  },
-  {
-    "tableNumber": "5",
-    "tableName": "Farm Table 5",
-    "firstName": "Magdalena",
-    "lastName": "Pintor"
   },
   {
     "tableNumber": "5",
